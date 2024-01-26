@@ -7,7 +7,3 @@ local opts = { noremap = true, silent = true }
 
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
-
--- Split window
-keymap.set("n", "ss", ":split<return>", opts)
-keymap.set("n", "sv", ":vsplit<Return>", opts)
