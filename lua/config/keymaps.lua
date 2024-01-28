@@ -12,7 +12,5 @@ keymap.set("n", "s", "<Nop>")
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
 -- Indentation
-keymap.set("n", "<tab>", ">>")
 keymap.set("v", "<tab>", ">gv")
-keymap.set("n", "<S-Tab>", "<<")
 keymap.set("v", "<S-Tab>", "<gv")
