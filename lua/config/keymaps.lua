@@ -7,6 +7,7 @@ local opts = { noremap = true, silent = true }
 
 -- Disable
 keymap.set("n", "s", "<Nop>")
+keymap.set("i", "<tab>", "<Nop>")
 
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
